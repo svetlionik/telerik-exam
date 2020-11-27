@@ -19,7 +19,7 @@ for (let i = 0; i < bigBottles; i++) {
     leftSpace -= (leftSpace >= 5 ? 5 : 0);
 }
 smallDelivered = (smallBottles >= leftSpace) ? leftSpace : -1;
-print(smallDelivered);
+console.log(smallDelivered);
 
 
 
