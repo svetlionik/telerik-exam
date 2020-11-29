@@ -18,8 +18,7 @@ let leftSpace = truckCapacity;
 for (let i = 0; i < bigBottles; i++) {
     leftSpace -= (leftSpace >= 5 ? 5 : 0);
 }
-smallDelivered = (smallBottles >= leftSpace) ? leftSpace : -1;
-console.log(smallDelivered);
+print(smallBottles >= leftSpace ? leftSpace : -1);
 
 
 
